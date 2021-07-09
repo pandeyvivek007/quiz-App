@@ -1,0 +1,198 @@
+
+.main-card{
+    width: 55vw;
+    height: 20vh;
+    background-color: rgb(40, 41, 41);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: large;
+}
+.App{
+    height: 100vh;
+    background-size: 100vw 100vh; 
+    display: flex;
+    flex-direction: column;
+   
+    background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+   /* background-image: url("asset/pexels-anna-shvets-3683053.jpg");
+    background-color: rgb(224, 224, 224);*/
+  
+    
+}
+
+
+
+.btn{
+    width: 55vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px ;
+    padding-right: 10px;
+}
+
+.input-container{
+    width: 50vw;
+}
+.landing-form{
+    height: 90vh;
+    width: 100vw;
+   display: flex;
+   margin-left: 32vw;
+   flex-direction: column;
+   justify-content: center;
+  
+}
+.heading{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 60px;
+}
+.heading-div{
+    margin-bottom: 100px;
+    
+}
+.categories{
+    /* background-color: #203A43; */
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+}
+.nav-container{
+    display: flex;
+    width: 100vw;
+    background-color: #26d0ce;
+    height: 6vh;
+    align-items: center;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+.home-btn{
+    font-size: large;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+.profile-btn{
+    font-size: large;
+}
+.nav-text{
+    color: rgb(255, 255, 255);
+}
+.form-ele{
+    color: rgb(177, 171, 171);
+}
+.question-container {
+    background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    width: 80vw;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: black;
+    margin-top: 20px;
+}
+.options-btn{
+    display: flex;
+    align-items: center;
+    color: rgb(48, 48, 51);
+    cursor: pointer;
+    padding: 10px 70px;
+    justify-content: space-between;
+}
+.parent-box{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cor{
+    color: rgb(90, 182, 3);
+}
+.wrong{
+    color: red;
+}
+.unclicked{
+    background-color: rgb(236, 223, 30);
+    padding: 10px;
+    border-radius: 10px;
+}
+.unclicked:hover{
+    transform: translate(5px);
+   
+}
+
+.name{
+    font-family: 'Otomanopee One', sans-serif;
+}
+.score{
+    font-family: 'Otomanopee One', sans-serif;
+}
+.question-div{
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    color: #000000;
+}
+.correct-ans{
+    font-size:xx-large;
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(34, 146, 0);
+}
+.wrong-ans{
+    font-size: xx-large;
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(196, 1, 1);
+    margin-bottom: 0px;
+}
+.wrong-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.answer{
+    font-size: large;
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(34, 146, 0);;
+}
+.next-btn{
+    display: flex;
+    justify-content: center;
+}
+.profile-container{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-name{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+}
+.profile-score{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 30px;
+}
+.profile-msg{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 25px;
+}
+.profile-answered{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+}
+
+
